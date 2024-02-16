@@ -1,0 +1,80 @@
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap/scss/mixins.scss";
+@import "toastr";
+
+
+//custom pages
+@import "./dashboard.scss";
+@import "./login.scss";
+@import "./signup.scss";
+@import "./rangeslider.scss";
+
+
+:root{
+    --header-color: #00072D;
+    --main-color: #00072D;
+    --bg-color: #001C55 ;
+    --text-color: #000807;
+    --button-color: #0E6BA8;
+    --input-color: #1981c7;
+    --button-hover-color: #1981c7;
+    --heading-color: #000807;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+.heading{
+    color: var(--heading-color);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.sub-heading{
+    color: black;
+    font: 1.2rem "Helvetica Neue";
+    letter-spacing: 3px;
+    font: 300;
+}
+.form-input{
+    width: 50%;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    height: 40px;
+    background-color: var(--input-color);
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    border: none;
+}
+.cart-val {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+.btn{
+    background-color: var(--button-color);
+    color: var(--text-color);
+    margin-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    &:hover {
+        background-color: var(--button-hover-color) !important;
+        transition: 0.3s ease-in-out;
+    }
+}
+.text{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: white;
+}
+.guest-btn{
+    width: 50%;
+    border:none;
+    background-color: white;
+}

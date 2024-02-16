@@ -1,0 +1,28 @@
+.noUi-base {
+    height: 2px !important;
+}
+.noUi-target {
+    height: 2px !important;
+}
+.noUi-connects {
+    height: 2px !important;
+}
+.noUi-handle{
+    border-radius: 20px !important;
+    // height: 8px !important;
+    margin-bottom: 12px;
+}
+.noUi-connect {
+    background: green;
+}
+.noUi-horizontal .noUi-handle, .noUi-vertical .noUi-handle {
+    background: green;
+    color: green;
+}
+.noUi-target.noUi-horizontal {
+    background-color: green;
+}
+.noUi-tooltip  {
+    background-color: green;
+    color: white;
+}
